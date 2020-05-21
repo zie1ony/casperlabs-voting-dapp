@@ -1,0 +1,13 @@
+[package]
+name = "logic"
+version = "0.1.0"
+authors = ["Maciej Zieliński <maciej@casperlabs.io>"]
+edition = "2018"
+
+[lib]
+name = "logic"
+doctest = false
+bench = false
+
+[dependencies]
+casperlabs-types = { git="https://github.com/CasperLabs/CasperLabs", branch="hackathon" }
